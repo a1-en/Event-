@@ -5,6 +5,7 @@ import Footer from "./Footer";
 import Header from "./Header";
 import Venue from "./Pages/Venue";
 import Cat from "./Pages/Cattering";
+import Photo from "./Pages/Photographer";
 
 const Content = () => {
   let navigate = useNavigate();
@@ -24,7 +25,7 @@ const Content = () => {
             <div class="carousel-item active">
               <img
                 class="w"
-                src="Images/123.jpg"
+                src="Images/banquet/123.jpg"
                 alt="First slide"
                 style={{ height: "auto" }}
               />
@@ -32,7 +33,7 @@ const Content = () => {
             <div class="carousel-item">
               <img
                 class="w"
-                src="Images/232.png"
+                src="Images/banquet/232.png"
                 alt="Second slide"
                 style={{ height: "auto" }}
               />
@@ -40,7 +41,7 @@ const Content = () => {
             <div class="carousel-item">
               <img
                 class="w"
-                src="Images/banner-1.jpg"
+                src="Images/banquet/banner-1.jpg"
                 alt="Third slide"
                 style={{ height: "auto" }}
               />
@@ -61,7 +62,7 @@ const Content = () => {
               <div class="card mt-4">
                 <img
                   class="card-img-top"
-                  src="Images/ig-3.jpg"
+                  src="Images/banquet/ig-3.jpg"
                   alt="no image"
                 />
                 <div class="card-body">
@@ -84,7 +85,7 @@ const Content = () => {
             </div>
             <div class="col-sm-4 mb-5">
               <div class="card mt-4">
-                <img class="card-img-top" src="Images/t-2.jpg" alt="" />
+                <img class="card-img-top" src="Images/banquet/t-2.jpg" alt="" />
                 <div class="card-body">
                   <h4 class="card-title text-secondary">Catering service</h4>
                   <p class="card-text text-secondary">
@@ -106,7 +107,7 @@ const Content = () => {
 
             <div class="col-sm-4 mb-5">
               <div class="card mt-4">
-                <img class="card-img-top" src="Images/t-9.jpg" alt="" />
+                <img class="card-img-top" src="Images/banquet/t-9.jpg" alt="" />
                 <div class="card-body">
                   <h4 class="card-title text-secondary">Photographer </h4>
                   <p class="card-text text-secondary">
@@ -115,10 +116,17 @@ const Content = () => {
                   </p>
                 </div>
                 <div class="card-footer">
-                  <a href="http://localhost:3003/" class="btn btn-primary">
-                    {" "}
-                    Click here for details!
-                  </a>
+
+
+
+                <Button
+                    color="primary"
+                    className="px-4"
+                    onClick={() => navigate("/Photographer")}
+                  >
+                    click here for details
+                  </Button>
+
                 </div>
               </div>
             </div>

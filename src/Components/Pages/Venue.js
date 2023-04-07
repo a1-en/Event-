@@ -5,7 +5,7 @@ const Ven = () => {
   return (
     <>
       <div class="banner overlay">
-        <img src="images/bg.png" class="img-fluid w-100"></img>
+        <img src="images/banquet/bg.png" class="img-fluid w-100"></img>
       </div>
       <div class=" bg-dark text-white overlay-content">
         <center>
@@ -34,7 +34,7 @@ const Ven = () => {
 
           <div class="col-sm-6 p-3 text-white">
             <img
-              src="images/galaxy.jpg"
+              src="images/banquet/galaxy.jpg"
               class="rounded mx-auto d-block"
               style={{ height: "450px", width: "600px" }}
             ></img>
@@ -44,7 +44,7 @@ const Ven = () => {
         <div class="row">
           <div class="col-sm-6 p-3 text-white text-start">
             <img
-              src="images/lines.jpg"
+              src="images/banquet/lines.jpg"
               class="rounded mx-auto d-block"
               style={{ height: "450px", width: "600px" }}
             ></img>
@@ -72,7 +72,7 @@ const Ven = () => {
 
           <div class="col-sm-6 p-3 text-white">
             <img
-              src="images/ig-3.jpg"
+              src="images/banquet/ig-3.jpg"
               class="rounded mx-auto d-block"
               style={{ height: "450px", width: "600px" }}
             ></img>
@@ -82,7 +82,7 @@ const Ven = () => {
         <div class="row">
           <div class="col-sm-6 p-3 text-white">
             <img
-              src="images/elegant.jpg"
+              src="images/banquet/elegant.jpg"
               class="rounded mx-auto d-block"
               style={{ height: "450px", width: "600px" }}
             ></img>
@@ -109,7 +109,7 @@ const Ven = () => {
 
           <div class="col-sm-6 p-3 text-black">
             <img
-              src="images/casamneto.jpg"
+              src="images/banquet/casamneto.jpg"
               class="rounded mx-auto d-block"
               style={{ height: "450px", width: "600px" }}
             ></img>
@@ -119,7 +119,7 @@ const Ven = () => {
         <div class="row">
           <div class="col-sm-6 p-3 text-white">
             <img
-              src="images/saffron.jpg"
+              src="images/banquet/saffron.jpg"
               class="rounded mx-auto d-block"
               style={{ height: "450px", width: "600px" }}
             ></img>
@@ -147,7 +147,7 @@ const Ven = () => {
 
           <div class="col-sm-6 p-3 text-black">
             <img
-              src="images/venet.jpg"
+              src="images/banquet/venet.jpg"
               class="rounded mx-auto d-block"
               style={{ height: "450px", width: "600px" }}
             ></img>
@@ -159,7 +159,7 @@ const Ven = () => {
         <div class="row">
           <div class="col-sm-6 p-3 text-black">
             <img
-              src="images/glorio.jpg"
+              src="images/banquet/glorio.jpg"
               class="rounded mx-auto d-block"
               style={{ height: "450px", width: "600px" }}
             ></img>
@@ -187,7 +187,7 @@ const Ven = () => {
 
           <div class="col-sm-6 p-3 text-white">
             <img
-              src="images/hassan.jpg"
+              src="images/banquet/hassan.jpg"
               class="rounded mx-auto d-block"
               style={{ height: "450px", width: "600px" }}
             ></img>
@@ -197,7 +197,7 @@ const Ven = () => {
         <div class="row">
           <div class="col-sm-6 p-3 text-black">
             <img
-              src="images/candles.jpg"
+              src="images/banquet/candles.jpg"
               class="rounded mx-auto d-block"
               style={{ height: "450px", width: "600px" }}
             ></img>
