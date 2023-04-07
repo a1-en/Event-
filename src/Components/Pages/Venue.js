@@ -1,7 +1,10 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { useNavigate } from "react-router-dom";
 
 const Ven = () => {
+  let navigate = useNavigate();
+
   return (
     <>
       <div class="banner overlay">
@@ -21,12 +24,11 @@ const Ven = () => {
       <div class="container-fluid mt-3">
         <div class="row">
           <div class="col-sm-6 p-3 text-Black text-end">
-            <button>
+            <button  onClick={() => navigate("/ABC")}> 
               {" "}
-              <a href="http://localhost:3005/">
                 {" "}
                 <h1>Prince Marquee</h1>{" "}
-              </a>{" "}
+              
             </button>
             <h5>Jauhar</h5>
             <p>Private lobby, 1 bridal suites, 2 bars, 24' x 38' dance floor</p>
