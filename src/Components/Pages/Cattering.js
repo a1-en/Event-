@@ -1,9 +1,19 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { useNavigate } from "react-router-dom";
+
+
 
 const Cat = () => {
+
+  let navigate = useNavigate();
+
   return (
+
+
     <>
+
+
       <div class="banner overlay">
         <img src="images/Food/bg.png" class="img-fluid w-100"></img>
       </div>
@@ -20,19 +30,18 @@ const Cat = () => {
       <div class="container-fluid mt-3">
         <div class="row">
           <div class="col-sm-6 p-3 text-Black text-end">
-            <button>
+          
               {" "}
-              <a href="http://localhost:3005/">
-                {" "}
+              <button  onClick={() => navigate("/VNM")}>                
                 <h1>Venue and Menu</h1>{" "}
-              </a>{" "}
+              
             </button>
             <h5>Hussainabad</h5>
           </div>
 
           <div class="col-sm-6 p-3 text-white">
             <img
-              src="images/Food/galaxy.jpg"
+              src="images/Food/galaxy.png"
               class="rounded mx-auto d-block"
               style={{ height: "450px", width: "600px" }}
             ></img>
@@ -42,7 +51,7 @@ const Cat = () => {
         <div class="row">
           <div class="col-sm-6 p-3 text-white text-start">
             <img
-              src="images/Food/lines.jpg"
+              src="images/Food/lines.png"
               class="rounded mx-auto d-block"
               style={{ height: "450px", width: "600px" }}
             ></img>
@@ -168,7 +177,22 @@ const Cat = () => {
 
     
 
+
+
+
+
+
+
+
         <div class="row">
+          <div class="col-sm-6 p-3  text-black text-end">
+            <button>
+              {" "}
+              <h1>Vayani</h1>
+            </button>
+            <h5>Sehba Akhtar</h5>
+          </div>
+
           <div class="col-sm-6 p-3 text-black">
             <img
               src="images/Food/Hassan.jpg"
@@ -176,14 +200,8 @@ const Cat = () => {
               style={{ height: "450px", width: "600px" }}
             ></img>
           </div>
-          <div class="col-sm-6 p-3  text-black text-start">
-            <button>
-              {" "}
-              <h1>Vayani </h1>{" "}
-            </button>
-            <h5>Sehba Akhtar</h5>
-          </div>
         </div>
+
       </div>
     </>
   );

@@ -26,7 +26,7 @@ const Ven = () => {
           <div class="col-sm-6 p-3 text-Black text-end">
             <button  onClick={() => navigate("/ABC")}> 
               {" "}
-                {" "}
+           
                 <h1>Prince Marquee</h1>{" "}
               
             </button>

@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { useNavigate } from "react-router-dom";
 
 import { Pannellum } from "pannellum-react";
-import myImage from "./example.jpg";
+import myImage from "../../360/example.jpg";
 
 const ABC = () => {
   let navigate = useNavigate();

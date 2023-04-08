@@ -1,8 +1,8 @@
 import React from 'react';
 import './style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import {link} from "react-router";
 
+import {Link} from 'react-router-dom';
 
 function Header() {
   return (
@@ -35,7 +35,11 @@ function Header() {
                 </ul>
                 <ul class="il">
                 <li class="nav-item">
-                    <a class="nav-link" href="http://localhost:3004/">Login<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" >
+                    <Link to={"/Login"} >
+                    Login
+                    </Link>
+</a>
                   </li>
                  
                 </ul>

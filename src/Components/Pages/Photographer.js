@@ -5,7 +5,7 @@ const Photo = () => {
   return (
     <>
       <div class="banner overlay">
-        <img src="images/Graphers/bg3.png" class="img-fluid w-100"></img>
+        <img src="images/Graphers/bg3.jpg" class="img-fluid w-100"></img>
       </div>
       <div class=" bg-dark text-white overlay-content">
         <center>
@@ -78,7 +78,7 @@ const Photo = () => {
         <div class="row">
           <div class="col-sm-6 p-3 text-white">
             <img
-              src="images/Graphers/pdpp,jpg"
+              src="images/Graphers/pdpp.jpg"
               class="rounded mx-auto d-block"
               style={{ height: "450px", width: "600px" }}
             ></img>
@@ -99,24 +99,28 @@ const Photo = () => {
 
 
 
-       
+
+
+
 
         <div class="row">
-          <div class="col-sm-6 p-3 text-black">
+          <div class="col-sm-6 p-3  text-black text-end">
+            <button>
+              {" "}
+              <h1>𝓐𝓙 𝓢𝓽𝓾𝓭𝓲𝓸</h1>
+            </button>
+            <h5>𝔽𝕒𝕔𝕖𝕓𝕠𝕠𝕜 | 𝕀𝕟𝕤𝕥𝕒𝕘𝕣𝕒𝕞 </h5>
+          </div>
+
+          <div class="col-sm-6 p-3 text-white">
             <img
-              src="images/banquet/candles.jpg"
+              src="images/Graphers/aj.png"
               class="rounded mx-auto d-block"
               style={{ height: "450px", width: "600px" }}
             ></img>
           </div>
-          <div class="col-sm-6 p-3  text-black text-start">
-            <button>
-              {" "}
-              <h1>𝓐𝓙 𝓢𝓽𝓾𝓭𝓲𝓸 </h1>{" "}
-            </button>
-            <h5>𝔽𝕒𝕔𝕖𝕓𝕠𝕠𝕜 | 𝕀𝕟𝕤𝕥𝕒𝕘𝕣𝕒𝕞</h5>
-          </div>
         </div>
+
       </div>
     </>
   );
