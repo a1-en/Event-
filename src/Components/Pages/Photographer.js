@@ -1,9 +1,14 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Header1 from "../../Components/Header1";
+
+
+
 
 const Photo = () => {
   return (
-    <>
+    <>          <Header1 />
+
       <div class="banner overlay">
         <img src="images/Graphers/bg3.jpg" class="img-fluid w-100"></img>
       </div>

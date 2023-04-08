@@ -17,9 +17,9 @@ const Content = () => {
   };
 
   return (
-    <div>
+    <div id="#destinations">
       <Header />
-      <section>
+      <section class="" id="destinations">   
         <div id="carouselExampleSlidesOnly" class="carousel slide">
           <div class="carousel-inner">
             <div class="carousel-item active">

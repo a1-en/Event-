@@ -1,12 +1,15 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useNavigate } from "react-router-dom";
+import Header1 from "../../Components/Header1";
 
 const Ven = () => {
   let navigate = useNavigate();
 
   return (
     <>
+          <Header1 />
+
       <div class="banner overlay">
         <img src="images/banquet/bg.png" class="img-fluid w-100"></img>
       </div>

@@ -6,6 +6,8 @@ import Photographer from "./Components/Pages/Photographer";
 import ABC from './Components/Pages/ABC'
 import Login from './Components/Pages/Login'
 import Register  from "./Components/Pages/Register";
+import Header from "./Components/Header";
+import Header1 from "./Components/Header1";
 
 import VNM from "./Components/Pages/VNM";
 
@@ -25,6 +27,9 @@ function App() {
           <Route  path="/Photographer" element={<Photographer/>}/>
           <Route  path="/ABC" element={<ABC/>}/>
           <Route path="/VNM" element={<VNM/>}/>
+
+          <Route path="/Header" element ={ <Header/>}/>
+          <Route path="/Header1" element ={ <Header1/>}/>
 
         </Routes>
       </Router>

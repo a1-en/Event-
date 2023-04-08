@@ -1,6 +1,8 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useNavigate } from "react-router-dom";
+import Header from "../../Components/Header1";
+import Header1 from "../../Components/Header1";
 
 
 
@@ -13,6 +15,7 @@ const Cat = () => {
 
     <>
 
+<Header1 />
 
       <div class="banner overlay">
         <img src="images/Food/bg.png" class="img-fluid w-100"></img>

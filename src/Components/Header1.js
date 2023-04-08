@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import {Link} from 'react-router-dom';
 
-function Header() {
+function Header1() {
   return (
     <section class="navbar-dark bg-dark header">
        <div class="container">
@@ -34,20 +34,12 @@ function Header() {
                     </Link>
 </a>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#destinations">Our Services<span class="sr-only">(Content)</span></a>
-                  </li>
+                
 
 
 
-
-                  <li class="nav-item">
-                    <a class="nav-link" href="#destinations">About Us<span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#destinations">Blogs<span class="sr-only">(current)</span></a>
-                  </li>
-               
+                  
+              
                 </ul>
                 <ul class="il">
                 <li class="nav-item">
@@ -69,4 +61,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Header1;
