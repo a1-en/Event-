@@ -1,0 +1,44 @@
+.VNM {
+    text-align: center;
+    
+  }
+  
+  .VNM-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .VNM-logo {
+      animation: VNM-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .VNM-header {
+    background-color: #1c64f5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .VNM-link {
+    color: #61dafb;
+  }
+  
+  @keyframes VNM-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  .p{
+    line-height: 3px;
+  }

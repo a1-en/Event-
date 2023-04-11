@@ -1,14 +1,16 @@
 
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import "./css/vnm.css";
-
-
+import Header1 from '../Header1';
+import './VNM.css';
 function VNM() {
     
 
   return (
-    <> <div>
+    <> 
+    <Header1/>
+    
+    <div>
 <section class="section1">
     	<div class="container">
         

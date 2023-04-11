@@ -1,15 +1,16 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useNavigate } from "react-router-dom";
-
+import Header1 from "../Header1";
 import { Pannellum } from "pannellum-react";
-import myImage from "../../360/example.jpg";
+import myImage from "../../360/example4.jpg";
 
 const ABC = () => {
   let navigate = useNavigate();
 
   return (
     <>
+    <Header1/>
        <div className="App">
        <Pannellum
         width="100%"

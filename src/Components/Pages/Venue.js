@@ -67,9 +67,11 @@ const Ven = () => {
 
         <div class="row">
           <div class="col-sm-6 p-3  text-black text-end">
-            <button>
+          <button  onClick={() => navigate("/DEF")}> 
               {" "}
-              <h1>Parsa Banquet</h1>
+           
+                <h1>Parsa Banquet</h1>{" "}
+              
             </button>
             <h5>Jauhar </h5>
             <p>Private lobby, 1 bridal suit</p>

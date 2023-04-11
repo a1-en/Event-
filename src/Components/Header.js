@@ -1,6 +1,8 @@
 import React from 'react';
-import './style.css';
+import '../Components/Pages/css/header.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import logo from "../360/logo.png"
+
 
 import {Link} from 'react-router-dom';
 
@@ -11,6 +13,8 @@ function Header() {
           <div class="row">
            <div class="col-sm-12"> 
             <nav class="navbar navbar-expand-lg ">
+            <img src={logo} alt="Logo" width="120" height="70" />
+
               <a class="navbar-brand text-white" href="#">Eventum</a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -32,17 +36,20 @@ function Header() {
                     <Link to={"/"} >
                     Home
                     </Link>
+
+
+                    
 </a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#destinations">Our Services<span class="sr-only">(Content)</span></a>
+                    <a class="nav-link" href="#destinations">About Us<span class="sr-only">(Content)</span></a>
                   </li>
 
 
 
 
                   <li class="nav-item">
-                    <a class="nav-link" href="#destinations">About Us<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#destinations">Our Services<span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#destinations">Blogs<span class="sr-only">(current)</span></a>
@@ -60,6 +67,23 @@ function Header() {
                  
                 </ul>
                 
+
+
+
+                <ul class="il">
+                <li class="nav-item">
+                    <a class="nav-link" >
+                    <Link to={"/Vendor"} >
+                    Vendor Register
+                    </Link>
+</a>
+                  </li>
+                 
+                </ul>
+
+
+
+
               </div>
              </nav>
             </div>

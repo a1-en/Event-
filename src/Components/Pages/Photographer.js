@@ -1,13 +1,16 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { useNavigate } from "react-router-dom";
 import Header1 from "../../Components/Header1";
 
 
 
 
 const Photo = () => {
+  let navigate = useNavigate();
+
   return (
-    <>          <Header1 />
+    <>     <Header1 />
 
       <div class="banner overlay">
         <img src="images/Graphers/bg3.jpg" class="img-fluid w-100"></img>
@@ -25,12 +28,10 @@ const Photo = () => {
       <div class="container-fluid mt-3">
         <div class="row">
           <div class="col-sm-6 p-3 text-Black text-end">
-            <button>
-              {" "}
-              <a href="http://localhost:3005/">
-                {" "}
+          <button  onClick={() => navigate("/HS")}>        {" "}
+                
                 <h1>𝓗𝓪𝓴𝓲𝓶 𝓢𝓸𝓷𝓼</h1>{" "}
-              </a>{" "}
+              {" "}
             </button>
             <h5>𝔽𝕒𝕔𝕖𝕓𝕠𝕠𝕜 | 𝕀𝕟𝕤𝕥𝕒𝕘𝕣𝕒𝕞</h5>
           </div>
