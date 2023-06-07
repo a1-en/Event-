@@ -11,6 +11,7 @@ const DEF = () => {
   return (
     <>
     <Header1/>
+    <button> Book now  </button>
        <div className="App">
        <Pannellum
         width="100%"
@@ -23,9 +24,11 @@ const DEF = () => {
         showZoomCtrl={false}
         onLoad={() => {
           console.log("panorama loaded");
+          
         }}
       >
         <Pannellum.Hotspot
+        
           type="custom"
           pitch={31}
           yaw={150}

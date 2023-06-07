@@ -1,10 +1,15 @@
 
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Header1 from '../Header1';
-import './VNM.css';
+import { useNavigate } from "react-router-dom";
+
+import '../../Components/Pages/css/vnm.css';
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"> </link>
 function VNM() {
-    
+  
+  let navigate = useNavigate();
+
 
   return (
     <> 
@@ -39,7 +44,7 @@ function VNM() {
 <p>Wednesday	10am–11pm,</p>
 <p>Thursday	10am–11pm</p>  
 </p>            
-                        <a href="contact us.html"><button class="btnn">Book Now</button></a>
+<button class="venue-menu-button" onClick={() => navigate("/CFORM")}>      Book Now</button>
                     </div>
             	</div>
             </div>            
@@ -49,5 +54,6 @@ function VNM() {
     </div></>
   );
 }
+
 
 export default VNM;

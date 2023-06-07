@@ -10,31 +10,25 @@ const Ven = () => {
     <>
           <Header1 />
 
-      <div class="banner overlay">
-        <img src="images/banquet/bg.png" class="img-fluid w-100"></img>
+       <div className="banner overlay">
+        <img src="images/banquet/bg.png" alt="Banquet background" className="img-fluid w-100" />
       </div>
-      <div class=" bg-dark text-white overlay-content">
-        <center>
-          {" "}
-          <h1>𝕎𝔼𝔻𝔻𝕀ℕ𝔾 𝕍𝔼ℕ𝕌𝔼𝕊`</h1>
-          <p>
-            {" "}
-            Choose from among our glamorous ballroom venues – each offering a
-            unique setting, from rustic to lavish –
-          </p>
-        </center>
+
+      <div className="bg-dark text-white overlay-content">
+        <h1 className="text-center">Wedding Venues</h1>
+        <p className="text-center">
+          Choose from among our glamorous ballroom venues – each offering a unique setting, from rustic to lavish –
+        </p>
       </div>
-      <div class="container-fluid mt-3">
-        <div class="row">
-          <div class="col-sm-6 p-3 text-Black text-end">
-            <button  onClick={() => navigate("/ABC")}> 
-              {" "}
-           
-                <h1>Prince Marquee</h1>{" "}
-              
+
+      <div className="container-fluid mt-3">
+        <div className="row">
+          <div className="col-sm-6 p-3 text-black text-end">
+            <button className="venue-button" onClick={() => navigate("/ABC")}>
+              <h2>Prince Marquee</h2>
             </button>
-            <h5>Jauhar</h5>
-            <p>Private lobby, 1 bridal suites, 2 bars, 24' x 38' dance floor</p>
+            <h5 className="venue-location">Jauhar</h5>
+            <p className="venue-description">Private lobby, 1 bridal suite, 2 bars, 24' x 38' dance floor</p>
           </div>
 
           <div class="col-sm-6 p-3 text-white">
@@ -96,8 +90,8 @@ const Ven = () => {
           </div>
 
           <div class="col-sm-6 p-3  text-black text-start">
-            <button>
-              <h1>𝓔𝓵𝓮𝓰𝓪𝓷𝓽 𝓛𝓪𝔀𝓷</h1>
+          <button className="venue-button" onClick={() => navigate("/ELEGANT")}>
+              <h2>ELEGANT</h2>
             </button>
             <h5>North Nazimabad</h5>
             <p>Private lobby, 2 bridal suites, 2 bars, 24' x 38' dance floor</p>
@@ -133,9 +127,8 @@ const Ven = () => {
           </div>
 
           <div class="col-sm-6 p-3  text-black text-start">
-            <button>
-              {" "}
-              <h1>𝓢𝓪𝓯𝓯𝓻𝓸𝓷 𝓑𝓪𝓷𝓺𝓾𝓮𝓽</h1>
+          <button className="venue-button" onClick={() => navigate("/SAFFRON")}>
+              <h2>SAFFRON BANQUET</h2>
             </button>
             <h5>North Nazimabad</h5>
             <p>Private lobby, 2 bridal suites, 2 bars, 24' x 38' dance floor</p>
@@ -173,9 +166,8 @@ const Ven = () => {
           </div>
 
           <div class="col-sm-6 p-3  text-black text-start">
-            <button>
-              {" "}
-              <h1>𝐓𝐡𝐞 𝐆𝐥𝐨𝐫𝐢𝐨𝐬𝐚 𝐁𝐚𝐧𝐪𝐮𝐞𝐭</h1>{" "}
+          <button className="venue-button" onClick={() => navigate("/GLORIOSA")}>
+              <h2>GLORIOSA BANQUET</h2>
             </button>
             <h5>Gulistan-e-Jauhar</h5>
             <p>Private lobby, 2 bridal suites, 2 bars, 24' x 38' dance floor</p>
@@ -184,9 +176,8 @@ const Ven = () => {
 
         <div class="row">
           <div class="col-sm-6 p-3  text-black text-end">
-            <button>
-              {" "}
-              <h1>𝐇𝐚𝐬𝐬𝐚𝐧 𝐁𝐚𝐧𝐪𝐮𝐞𝐭</h1>{" "}
+          <button className="venue-button" onClick={() => navigate("/HASAN")}>
+              <h2>HASAN BANQUET</h2>
             </button>
             <h5>Gulistan-e-Jauhar</h5>
             <p>Private lobby, 2 bridal suites, 24' x 38' dance floor</p>

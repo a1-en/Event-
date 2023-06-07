@@ -3,7 +3,6 @@
     display: flex;
     min-height: 100vh;
     align-items: center;
-    background-color: cadetblue;background-image: url(C:\Users\TECHALONE\Desktop\Fyp desktop\home page\home\reactjs\src\logsign imag\wed5.jpg);
 
 }
   .auth-form-container, .login-form, .register-form {

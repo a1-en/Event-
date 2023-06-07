@@ -55,9 +55,10 @@ const Photo = () => {
           </div>
 
           <div class="col-sm-6 p-3 text-black">
-            <button>
+          <button  onClick={() => navigate("/ST13")}>        {" "}
+                
+                <h1>Studio 13 Photographer</h1>{" "}
               {" "}
-              <h1>𝓢𝓽𝓾𝓭𝓲𝓸 13 𝓟𝓱𝓸𝓽𝓸𝓰𝓻𝓪𝓹𝓱𝔂 & 𝓕𝓲𝓵𝓶𝓼 </h1>
             </button>
             <h5>𝔽𝕒𝕔𝕖𝕓𝕠𝕠𝕜 | 𝕀𝕟𝕤𝕥𝕒𝕘𝕣𝕒𝕞</h5>
           </div>
@@ -65,9 +66,10 @@ const Photo = () => {
 
         <div class="row">
           <div class="col-sm-6 p-3  text-black text-end">
-            <button>
+          <button  onClick={() => navigate("/SF")}>        {" "}
+                
+                <h1>The Shadi Filmers</h1>{" "}
               {" "}
-              <h1>𝓣𝓱𝓮 𝓢𝓱𝓪𝓪𝓭𝓲 𝓕𝓲𝓵𝓶𝓮𝓻𝓼</h1>
             </button>
             <h5>𝔽𝕒𝕔𝕖𝕓𝕠𝕠𝕜 | 𝕀𝕟𝕤𝕥𝕒𝕘𝕣𝕒𝕞 </h5>
           </div>
@@ -91,8 +93,10 @@ const Photo = () => {
           </div>
 
           <div class="col-sm-6 p-3  text-black text-start">
-            <button>
-              <h1>𝓟𝓪𝓼𝓼𝓲𝓸𝓷𝓷𝓮 𝓓𝓮 𝓟𝓻𝓸𝓭𝓾𝓬𝓽𝓲𝓸𝓷: 𝓟𝓓𝓟 𝓗𝓸𝓾𝓼𝓮</h1>
+          <button  onClick={() => navigate("/PDP")}>        {" "}
+                
+                <h1>𝓟𝓪𝓼𝓼𝓲𝓸𝓷𝓷𝓮 𝓓𝓮 𝓟𝓻𝓸𝓭𝓾𝓬𝓽𝓲𝓸𝓷: 𝓟𝓓𝓟 𝓗𝓸𝓾𝓼</h1>{" "}
+              {" "}
             </button>
             <h5>𝔽𝕒𝕔𝕖𝕓𝕠𝕠𝕜 | 𝕀𝕟𝕤𝕥𝕒𝕘𝕣𝕒𝕞</h5>
           </div>
@@ -111,9 +115,10 @@ const Photo = () => {
 
         <div class="row">
           <div class="col-sm-6 p-3  text-black text-end">
-            <button>
+          <button  onClick={() => navigate("/AJS")}>        {" "}
+                
+                <h1>AJ Studio</h1>{" "}
               {" "}
-              <h1>𝓐𝓙 𝓢𝓽𝓾𝓭𝓲𝓸</h1>
             </button>
             <h5>𝔽𝕒𝕔𝕖𝕓𝕠𝕠𝕜 | 𝕀𝕟𝕤𝕥𝕒𝕘𝕣𝕒𝕞 </h5>
           </div>

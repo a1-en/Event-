@@ -5,6 +5,8 @@ import Footer from "./Footer";
 import Header1 from "./Header1";
 
   function VENDOR() {
+   let navigate = useNavigate();
+
     return (
        <div>
                 <Header1/>
@@ -41,9 +43,13 @@ import Header1 from "./Header1";
                           <h4 class="card-title text-secondary">Wedding Halls</h4>
                           <p class="card-text text-secondary">Grow up your business </p>
                        </div>
-                       <div class="card-footer">
-                          <a href="./weddinghalls.js" class="btn btn-primary">Add my business!</a>
-                       </div>
+                       <Button
+                    color="primary"
+                    className="px-4"
+                    onClick={() => navigate("/ADD3")}
+                  >
+                    ADD my Business
+                  </Button>
                     </div>
                  </div>
                  <div class="col-sm-4 mb-5">
@@ -53,25 +59,47 @@ import Header1 from "./Header1";
                           <h4 class="card-title text-secondary">cattering service</h4>
                           <p class="card-text text-secondary">Grow up your business!</p>
                        </div>
-                       <div class="card-footer">
-                          <a href="#" class="btn btn-primary">Add my business!</a>
-                       </div>
+                       <Button
+                    color="primary"
+                    className="px-4"
+                    onClick={() => navigate("/ADD3")}
+                  >
+                    ADD my Business
+                  </Button>
                     </div>
                  </div>
                  
+
+
+
+
+
+
 
                  <div class="col-sm-4 mb-5">
                     <div class="card mt-4">
                        <img class="card-img-top" src="Images/Vendor/t-9.jpg" alt=""/>
                        <div class="card-body">
-                          <h4 class="card-title text-secondary">Photo grapher </h4>
-                          <p class="card-text text-secondary"> Grow up your business </p>
+                          <h4 class="card-title text-secondary">photographers</h4>
+                          <p class="card-text text-secondary">Grow up your business!</p>
                        </div>
-                       <div class="card-footer">
-                          <a href="#" class="btn btn-primary"> Add my business!</a>
-                       </div>
+                       <Button
+                    color="primary"
+                    className="px-4"
+                    onClick={() => navigate("/ADD3")}
+                  >
+                    ADD my Business
+                  </Button>
                     </div>
                  </div>
+                 
+
+
+
+
+
+
+                 
                 
 
 <div id = "ab">

@@ -1,40 +1,54 @@
-.header
-{
-    border-bottom: 2px solid #4AA0D8;
-    background-color: rgba(17, 165, 169, 0.5);
+/* Header styling */
+.header {
+  border-bottom: 2px solid #4AA0D8;
+  background-color: rgba(17, 165, 169, 0.5);
 }
 
-.header li a
-{
-    text-decoration: none;
-    color:white;
+.header li a {
+  text-decoration: none;
+  color: white;
 }
- li a:hover
-{
-    text-decoration: none;
-    color:yellow;
-    font-weight: 700;
-}
-html {
-    scroll-behavior: smooth;
-   }
-   
-   a {
-    text-decoration: none;
-    color: black;
-   } 
-   
-   .button1 {
-   
-    margin-left: 350px;
-    
-  }
-  .button1:hover {
-    
-    color: rgb(99, 14, 14);
-  }
 
-  .slide-bar {
-    animation-delay: 2s;
-  }
-  
+.header li a:hover {
+  text-decoration: none;
+  color: yellow;
+  font-weight: bold;
+}
+
+/* Global link styling */
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: rgb(99, 14, 14);
+}
+
+/* Button styling */
+.button1 {
+  margin-left: 350px;
+}
+
+.button1:hover {
+  color: rgb(99, 14, 14);
+  cursor: pointer; /* add cursor on hover */
+}
+
+/* Animation */
+.slide-bar {
+  animation-delay: 2s;
+}
+
+/* Vendor registration styling */
+.imr {
+  display: flex; /* use flexbox for horizontal alignment */
+  margin-left: auto; /* push to the right side of the navbar */
+}
+
+.imr li {
+  margin-left: 1rem; /* add spacing between the links */
+}
+.zai{
+  margin-left: 700px;
+}

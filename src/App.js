@@ -12,8 +12,26 @@ import VNM from "./Components/Pages/VNM";
 import DEF from "./Components/Pages/DEF";
 import HS from "./Components/Pages/HS";
 import VENDOR from "./Components/VENDOR";
-import ABOUT from "./Components/Pages/ABOUT";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import ADD3 from "./Components/Pages/ADD3";
+import GLORIOSA from "./Components/Pages/GLORIOSA";
+import HASAN from "./Components/Pages/HASAN";
+import SAFFRON from "./Components/Pages/SAFFRON";
+import ELEGANT from "./Components/Pages/ELEGANT";
+import TM from "./Components/Pages/TM";
+import SC from "./Components/Pages/SC";
+import NC from "./Components/Pages/NC";
+import AH from "./Components/Pages/AH";
+import IMC from "./Components/Pages/IMC";
+import QC from "./Components/Pages/QC";
+import CC from "./Components/Pages/CC";
+import VC from "./Components/Pages/VC";
+import AJS from "./Components/Pages/AJS";
+import PDP from "./Components/Pages/PDP";
+import ST13 from "./Components/Pages/ST13";
+import SF from "./Components/Pages/SF";
+import CFORM from "./Components/Pages/CFORM";
+import VFORM from "./Components/Pages/VFORM";
+import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 //import "../src/Components/Pages/css/log.css";
 //import "../src/Components/Pages/css/vnm.css";
@@ -30,7 +48,27 @@ function App() {
           <Route path="/Login" element={<Login />} />
           <Route path="/Register" element={<Register />} />
           <Route path="/VENDOR" element={<VENDOR />} />
-          <Route path="/ABOUT" element={<ABOUT />} />
+          <Route path="/SC" element={<SC />} />
+          <Route path="/NC" element={<NC />} />
+          <Route path="/AH" element={<AH />} />
+          <Route path="/IMC" element={<IMC />} />
+          <Route path="/QC" element={<QC />} />
+          <Route path="/CC" element={<CC />} />
+          <Route path="/VC" element={<VC />} />
+          <Route path="/AJS" element={<AJS />} />
+          <Route path="/SF" element={<SF />} />
+          <Route path="/ST13" element={<ST13 />} />
+          <Route path="/CFORM" element={<CFORM />} />
+          <Route path="/VFORM" element={<VFORM />} />
+
+
+          <Route path="/TM" element={<TM />} />
+          <Route path="/ADD3" element={<ADD3/>} />
+          <Route path="/HASAN" element={<HASAN/>} />
+          <Route path="/GLORIOSA" element={<GLORIOSA/>} />
+          <Route path="/SAFFRON" element={<SAFFRON/>} />
+          <Route path="/ELEGANT" element={<ELEGANT/>} />
+          <Route path="/PDP" element={<PDP/>} />
 
           <Route  path="/venue" element={<Venue />} />
           <Route  path="/Cattering" element={<Cattering/>}/>
